@@ -8,6 +8,7 @@ mongoose.connect('mongodb+srv://junior:junior123@proyectobd3.l4goe.mongodb.net/p
     useFindAndModify: false
 }).then(db=> console.log('Se conecto a la BD Mongo')).catch(err => console.error(err));
 
-/* mongodb+srv://junior:junior123@proyectobd3.l4goe.mongodb.net/pbd3?retryWrites=true&w=majority
+/* 
+mongodb+srv://junior:junior123@proyectobd3.l4goe.mongodb.net/pbd3?retryWrites=true&w=majority
 mongodb://localhost/SLA
  */
